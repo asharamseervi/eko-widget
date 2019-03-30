@@ -1,0 +1,25 @@
+{
+  "name": "eko-widget",
+  "version": "1.0.0",
+  "description": "This is Eko Widget demonstration for newbie like me, hope this helps to bootstrap your projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [
+    "eko-widget",
+    "eko apis",
+    "eko api developement",
+    "eko api code"
+  ],
+  "author": "Asharam Seervi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asharamseervi/eko-widget/issues"
+  },
+  "homepage": "https://github.com/asharamseervi/eko-widget"
+}

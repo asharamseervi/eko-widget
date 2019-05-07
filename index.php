@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
 		<script src="https://beta.ekoconnect.in/widget/import-eko-connect-widget.js"></script>
 	</head>
 
 	<body>
-		<tf-eko-connect-widget
+
+<tf-eko-connect-widget
+     id="ekowidget"
+     transaction-flow="remittance"
+     developer-key="becbbce45f79c6f5109f848acd540567"
+     secret-key="a6dGwEILHdlezzy1ZycRvKuUr6+6yqAOd7OlL4dvQvc="
+     secret-key-timestamp="1512158087256"
+     initiator-id="9910028267"
+     merchant-document-id-type="1"
+     merchant-document-id="AABTG6381M"
+     pincode="122003"
+     language="en"
+     debug>
+</tf-eko-connect-widget>
+
+<!-- 		<tf-eko-connect-widget
 			id = 'ekowidget'
 			transaction-flow = 'remittance,remittance_refund'
 			developer-key = 'becbbce45f79c6f5109f848acd540567'
@@ -25,7 +42,7 @@
             pincode='122003'
             language="en"
             debug>
-        </tf-eko-connect-widget>
+        </tf-eko-connect-widget> -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	</body>
 </html>
